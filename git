@@ -10,3 +10,6 @@ diff -u is used to compare two files, line by line, and have the differing lines
 Patch
 Patch is useful for applying file differences. See the below example, which compares two files.
 The comparison is saved as a .diff file, which is then patched to the original file!
+
+Spot on! By keeping track of the changes that we make to our files, a VCS lets us know when a file changed, who changed it,
+and also lets us easily roll back those changes.
