@@ -1,0 +1,2 @@
+Right on! While diff is the command that generates the difference between two files,
+patch is the command that applies those differences to the original file.
