@@ -19,4 +19,6 @@ and also lets us easily roll back those changes.
  The git directory acts as a database for all the changes tracked in Git and 
  the working tree acts as a sandbox where we can edit the current versions of the files.
  
+ After modifying a file, we need to stage those changes and then commit them afterwards.
+ 
  
