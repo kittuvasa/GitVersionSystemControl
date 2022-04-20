@@ -13,3 +13,10 @@ The comparison is saved as a .diff file, which is then patched to the original f
 
 Spot on! By keeping track of the changes that we make to our files, a VCS lets us know when a file changed, who changed it,
 and also lets us easily roll back those changes.
+
+
+
+ The git directory acts as a database for all the changes tracked in Git and 
+ the working tree acts as a sandbox where we can edit the current versions of the files.
+ 
+ 
