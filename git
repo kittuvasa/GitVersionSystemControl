@@ -145,4 +145,10 @@ For example, this can be useful for configuration files or metadata files that a
 
 git checkout restores files to the latest stored snapshot, reverting any changes before staging.
  
+ git commit --amend allows us to modify and add changes to the most recent commit. 
+ 
+ With git revert HEAD, a new commit is created with inverse changes. 
+ This cancels previous changes instead of making it as though the original commit never happened.
+ 
+ 
  
