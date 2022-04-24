@@ -143,6 +143,6 @@ Similar to the Linux `rm` command, this deletes, or removes a file
 .gitignore files are used to tell the git tool to intentionally ignore some files in a given Git repository.
 For example, this can be useful for configuration files or metadata files that a user may not want to check into the master branch.
 
-
+git checkout restores files to the latest stored snapshot, reverting any changes before staging.
  
  
