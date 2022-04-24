@@ -150,5 +150,10 @@ git checkout restores files to the latest stored snapshot, reverting any changes
  With git revert HEAD, a new commit is created with inverse changes. 
  This cancels previous changes instead of making it as though the original commit never happened.
  
- 
- 
+  the SHA1 hash numbers that Git uses to identify commits?
+They provide the consistency that is critical for distributed systems such as Git.
+They are created using the commit message, date, author, and the snapshot taken of the working tree.
+They are composed of 40 characters.
+Git can identify a commit using the first few hash numbers as long as there is only one matching possibility
+
+The git show command without an object parameter specified  will default to show us information about the commit pointed to by the HEAD.
