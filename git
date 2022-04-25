@@ -157,3 +157,13 @@ They are composed of 40 characters.
 Git can identify a commit using the first few hash numbers as long as there is only one matching possibility
 
 The git show command without an object parameter specified  will default to show us information about the commit pointed to by the HEAD.
+
+the purpose of organizing repositories into branches - To enable changes to be worked on without disrupting the most current working state.
+ By creating a new branch, we can experiment without breaking what already works.
+ 
+  git checkout switch branches -  The HEAD is moved to the relevant commit on the specified branch.
+  
+   when we merge two branches Both branches are pointed at the same commit.Merging combines branched data and history together.
+   
+   he advantage of Git throwing a merge conflict error in cases of overlap, If two lines have differences Git is unsure about,
+   it's best we decide than risk losing work forever.
