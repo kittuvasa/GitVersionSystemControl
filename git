@@ -165,5 +165,9 @@ the purpose of organizing repositories into branches - To enable changes to be w
   
    when we merge two branches Both branches are pointed at the same commit.Merging combines branched data and history together.
    
-   he advantage of Git throwing a merge conflict error in cases of overlap, If two lines have differences Git is unsure about,
+   The advantage of Git throwing a merge conflict error in cases of overlap, If two lines have differences Git is unsure about,
    it's best we decide than risk losing work forever.
+   
+ 
+   
+   
