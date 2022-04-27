@@ -171,5 +171,11 @@ the purpose of organizing repositories into branches - To enable changes to be w
     BEST describes GitHub - A remote repository hosting service for Git,GitHub provides free access to a Git server for public and private repositories.
    
  
+ After making changes to our local repository, how do we update the remote repository to reflect our changes -
+ Use the git push command to send snapshots to the remote repository. The git push command gathers all the snapshots we've taken and sends them to the remote repository.
    
+  git config --global credential.helper cache allows us to configure the credential helper, which is used for-
+  Allowing automated login to GitHub, By configuring the credential helper, we can avoid having to type in our username and password repeatedly.
+  The credential helper caches our credentials for a time window, so that we don't need to enter our password with every interaction.
+   We can create an SSH key-pair and store the public key in our profile, so that GitHub recognizes our computer.
    
