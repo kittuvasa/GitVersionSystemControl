@@ -168,6 +168,8 @@ the purpose of organizing repositories into branches - To enable changes to be w
    The advantage of Git throwing a merge conflict error in cases of overlap, If two lines have differences Git is unsure about,
    it's best we decide than risk losing work forever.
    
+    BEST describes GitHub - A remote repository hosting service for Git,GitHub provides free access to a Git server for public and private repositories.
+   
  
    
    
