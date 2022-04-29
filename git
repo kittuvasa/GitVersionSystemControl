@@ -179,3 +179,5 @@ the purpose of organizing repositories into branches - To enable changes to be w
   The credential helper caches our credentials for a time window, so that we don't need to enter our password with every interaction.
    We can create an SSH key-pair and store the public key in our profile, so that GitHub recognizes our computer.
    
+   If we want to make a change to a remote branch, what must we do Pull the remote branch,
+   merge it with the local branch, then push it back to its origin.
