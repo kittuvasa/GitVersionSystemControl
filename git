@@ -181,3 +181,7 @@ the purpose of organizing repositories into branches - To enable changes to be w
    
    If we want to make a change to a remote branch, what must we do Pull the remote branch,
    merge it with the local branch, then push it back to its origin.
+   
+   the main difference between git fetch and git pull- 
+   git fetch fetches remote updates but doesn't merge; git pull fetches remote updates and merges.
+   git pull instantly merges while git fetch only retrieves remote updates.
