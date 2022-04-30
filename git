@@ -174,6 +174,13 @@ the purpose of organizing repositories into branches - To enable changes to be w
  After making changes to our local repository, how do we update the remote repository to reflect our changes -
  Use the git push command to send snapshots to the remote repository. The git push command gathers all the snapshots we've taken and sends them to the remote repository.
    
+   If you want to clone the repository into another directory of your choice, you can do that by passing the name of the directory. 
+   This automatically creates a new directory with the specified name and initializes the repository inside it.
+
+   Syntax:
+
+  git clone [URL] directory_name
+   
   git config --global credential.helper cache allows us to configure the credential helper, which is used for-
   Allowing automated login to GitHub, By configuring the credential helper, we can avoid having to type in our username and password repeatedly.
   The credential helper caches our credentials for a time window, so that we don't need to enter our password with every interaction.
@@ -199,8 +206,16 @@ the purpose of organizing repositories into branches - To enable changes to be w
    git rebase refactor - Move the current branch on top of the refactor branch, his makes debugging easier and prevents three-way merges 
    by transferring the completed work from one branch to another.
    
+   Rebasing instead of merging rewrites history and maintains linearity, making for cleaner code.
    
+   The git pull command runs git fetch with the given parameters, then calls git merge to merge the retrieved branch heads into the current branch.
    
+   git rebase is useful for maintaining a clean, linear commit history.
+    
+    It's common practice to keep the latest version in the master branch and the latest stable version in a separate branch.
+    
+    You can also use git rebase <branchname> to change the base of the current branch to be <branchname>.
+    
    
    
    
