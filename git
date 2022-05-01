@@ -216,8 +216,17 @@ the purpose of organizing repositories into branches - To enable changes to be w
     
     You can also use git rebase <branchname> to change the base of the current branch to be <branchname>.
     
+    The fixup operation will keep the original message and discard the message from the fixup commit, while squash combines them.
+    
+     a pull request - A request sent to the owner and collaborators of the target repository to pull your recent changes.,You
+     send a pull request to the owner of the repository in order for them to incorporate it into their tree.
+     
+     git push with the -f flag forcibly replaces the old commits with the new one and forces Git to push the current snapshot to the repo as it is.
+     This can be dangerous as it can lead to remote changes being permanently lost and is not recommended unless you're pushing fixes to your own fork 
+     (nobody else is using it) such as in the case after doing interactive rebasing to squash multiple commits into one as demonstrated.
    
-   
+     When using interactive rebase, pick the default, and takes the commits and rebases them against the branch we selected.
+     The pick keyword takes the commits and rebases them against the branch we have chosen.
    
    
    
