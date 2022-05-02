@@ -228,7 +228,13 @@ the purpose of organizing repositories into branches - To enable changes to be w
      When using interactive rebase, pick the default, and takes the commits and rebases them against the branch we selected.
      The pick keyword takes the commits and rebases them against the branch we have chosen.
    
-   
+    Keywords such as closes or resolves followed by a hashtag and the issue number will tell Git to autolink to the issue with the provided ID number.
+    
+    Artifacts can include compiled code, test results, logs, or any type of file generated as part of the pipeline.
+    
+    A continuous integration system will build and test our code every time there's a change. 
+    
+    Continuous Delivery means new code is often deployed with the goal of avoiding rollouts with lots of changes between two versions.
    
    
    
