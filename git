@@ -237,7 +237,11 @@ the purpose of organizing repositories into branches - To enable changes to be w
     Continuous Delivery means new code is often deployed with the goal of avoiding rollouts with lots of changes between two versions.
    
    
-   
+to prevent git from tracking our local repo:
+execute this cmd in git bash:
+navigate to current repo and 
+<rm -rf .git>
+.git folder contains all the data and configuration files related to our git versioned local repo. 
    
    
    
